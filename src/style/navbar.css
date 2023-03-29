@@ -1,0 +1,22 @@
+.logo {
+  background: linear-gradient(to bottom, #b45b35, #e65c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.search {
+  background-color: #fff !important;
+  border: 2px solid #ccc !important;
+  border-radius: 20px !important;
+  color: #333 !important;
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+  width: 300px !important;
+}
+
+.search:focus {
+  border-color: #b45b35 !important;
+  box-shadow: 0 0 5px rgba(180, 91, 53, 0.5) !important;
+  outline: none !important;
+}
